@@ -1,0 +1,16 @@
+.restaurant-header {
+    // display: flex;
+    position: relative;
+
+    .back {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5%;
+        font-size: 20px;
+
+        a {
+            color: $grey2;
+        }
+    }
+}

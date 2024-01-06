@@ -1,0 +1,66 @@
+$primary: #9356DC;
+$secondary: #FF79DA;
+$Tertiary: #99E2D0;
+$grey: #EAEAEA;
+$grey2: #353535;
+
+@mixin buttonGradient {
+    background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+
+@mixin likeGradient {
+    background: #9356DC;
+    background: -webkit-linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
+    background: -moz-linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
+    background: linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+@mixin centreFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centerFlexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexColumnFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+@mixin flexRowFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin animationDishies {
+    opacity: 0;
+    animation: apparition 1s ease forwards;
+    @keyframes apparition {
+        0% {
+            opacity: 0;
+        } 
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Robot", sans-serif;
+
+    a{
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,9 @@
+.main-image3 {
+    width: 100%;
+    min-height: 275px;
+    background: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg) center/cover;
+
+    @media (min-width: 769px) {
+        min-height: 400px;
+    }
+}

@@ -1,0 +1,9 @@
+.main-image4 {
+    width: 100%;
+    min-height: 275px;
+    background: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg) center/cover;
+
+    @media (min-width: 769px) {
+        min-height: 400px;
+    }
+}

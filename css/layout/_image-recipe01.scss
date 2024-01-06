@@ -1,0 +1,9 @@
+.main-image1 {
+    width: 100%;
+    min-height: 275px;
+    background: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg) center/cover;
+
+    @media (min-width: 769px) {
+        min-height: 400px;
+    }
+}

@@ -1,0 +1,49 @@
+.main-container {
+    position: relative;
+    
+    .loader-container {
+        background-color: #fff;
+        min-height: 100vh;
+        width: 100%;
+        position: absolute;
+        @include centerFlexColumn;
+        z-index: 1;
+        animation: vanishing 3s forwards;
+
+        @keyframes vanishing {
+            0% {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            80% {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        .loader {
+            border: 16px solid #F6F6F6;
+            border-top: 16px solid $primary;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+            margin: auto;
+        }
+    
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
