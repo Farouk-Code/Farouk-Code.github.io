@@ -433,7 +433,7 @@ footer .footer-container .links .legal-links {
 }
 .main-container .loader-container {
   background-color: #fff;
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   position: absolute;
   display: -webkit-box;
