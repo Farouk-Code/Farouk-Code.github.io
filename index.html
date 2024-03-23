@@ -1,159 +1,267 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/bb340b2af0.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Ohmyfood</title>
-</head>
-
-<body>
-    <div class="main-container">
-        <div class="loader-container">
-            <div class="loader"></div>
-        </div>
-        <header>
-            <div class="logo"><a href="index.html">
-                    <img src="./images/logo/ohmyfood.png" alt="Ohmyfood">
-                </a></div>
-            <div class="city"><i class="fa-solid fa-location-dot"></i>
-                <p>Paris, Belleville</p>
-            </div>
-            <div class="explore">
-                <h1>Réservez le menu qui vous convient</h1>
-                <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                <button>Explorez nos restaurants</button>
-            </div>
-        </header>
-        <main>
-            <section class="functioning">
-                <div class="functioning-container">
-                    <h2>Fonctionnement</h2>
-                    <div class="steps-list">
-                        <div class="step">
-                            <p class="step-number">1</p>
-                            <p class="step-description"><i class="fa-solid fa-mobile-screen"></i> Choisissez un
-                                restaurant
-                            </p>
-                        </div>
-                        <div class="step">
-                            <p class="step-number">2</p>
-                            <p class="step-description"><i class="fa-solid fa-list-ul"></i> Composez votre menu</p>
-                        </div>
-                        <div class="step">
-                            <p class="step-number">3</p>
-                            <p class="step-description"><i class="fa-solid fa-store"></i> Dégustez au restaurant</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="restaurants-container">
-                <div class="restaurants">
-                    <h2>Restaurants</h2>
-                    <div class="cards-list">
-                        <div class="link-card">
-                            <a href="la-palette-du-gout.html">
-                                <figure>
-                                    <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                                        alt="La palette du goût">
-                                    <figcaption>Nouveau</figcaption>
-                                </figure>
-                                <div class="info-card">
-                                    <h3>La palette du goût</h3>
-                                    <p>Ménilmontant</p>
-                                </div>
-                            </a>
-                            <div class="fav-card">
-                                <input type="checkbox" id="fav1" class="checkbox-fav">
-                                <label for="fav1">
-                                    <i class="fa-regular fa-heart regular-heart"></i>
-                                    <i class="fa-solid fa-heart solid-heart"></i>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="link-card">
-                            <a href="la-note-enchantee.html">
-                                <figure>
-                                    <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-                                        alt="La palette du goût">
-                                    <figcaption>Nouveau</figcaption>
-                                </figure>
-                                <div class="info-card">
-                                    <h3>La note enchantée</h3>
-                                    <p>Charonne</p>
-                                </div>
-                            </a>
-                            <div class="fav-card">
-                                <input type="checkbox" id="fav2" class="checkbox-fav">
-                                <label for="fav2">
-                                    <i class="fa-regular fa-heart regular-heart"></i>
-                                    <i class="fa-solid fa-heart solid-heart"></i>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="link-card">
-                            <a href="a-la-francaise.html">
-                                <figure>
-                                    <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                                        alt="La palette du goût">
-                                </figure>
-                                <div class="info-card">
-                                    <h3>À la française</h3>
-                                    <p>Cité Rouge</p>
-                                </div>
-                            </a>
-                            <div class="fav-card">
-                                <input type="checkbox" id="fav3" class="checkbox-fav">
-                                <label for="fav3">
-                                    <i class="fa-regular fa-heart regular-heart"></i>
-                                    <i class="fa-solid fa-heart solid-heart"></i>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="link-card">
-                            <a href="le-delice-des-sens.html">
-                                <figure>
-                                    <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                                        alt="Le delice du sens">
-                                </figure>
-                                <div class="info-card">
-                                    <h3>Le délice des sens</h3>
-                                    <p>Folie-Méricourt</p>
-                                </div>
-                            </a>
-                            <div class="fav-card">
-                                <input type="checkbox" id="fav4" class="checkbox-fav">
-                                <label for="fav4">
-                                    <i class="fa-regular fa-heart regular-heart"></i>
-                                    <i class="fa-solid fa-heart solid-heart"></i>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div class="footer-container">
-                    <a href="index.html"><img src="images/logo/ohmyfood-white.png" alt="Ohmyfood"></a>
-                    <div class="links">
-                        <div class="important-links">
-                            <a href="#"><i class="fa-solid fa-utensils"></i> Proposer un restaurant</a>
-                            <a href="#"><i class="fa-solid fa-handshake-angle"></i> Devenir partenaire</a>
-                        </div>
-                        <div class="legal-links">
-                            <a href="#">Mentions légales</a>
-                            <a href="#">Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </main>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reservation</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="header-logo">
+        <img alt="logo" src="Logo.png" width="250" height="45" />
+      </div>
+      <div class="main-navbar">
+        <a href="#" class="active" id="nav-home" aria-label="Accueil"
+          ><span>Accueil</span></a
+        >
+        <a href="#" id="nav-details" aria-label="Détails de l'évènement"
+          ><span>Détails de l'évènement</span></a
+        >
+        <a href="#" id="nav-about" aria-label="À propos"
+          ><span>À propos</span></a
+        >
+        <a href="#" id="nav-contact" aria-label="Contact"
+          ><span>Contact</span></a
+        >
+        <a href="#" id="nav-pastevents" aria-label="Évènements passés"
+          ><span>Évènements passés</span></a
+        >
+        <a
+          href="javascript:void(0);"
+          class="icon"
+          onclick="editNav()"
+          aria-label="Ouvrir le menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+      </div>
     </div>
-</body>
+    <main>
+      <div class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-headline">
+            Marathon national<br />
+            de jeux vidéos
+          </h1>
+          <p class="hero-text">
+            Vous aimez jouer ? Notre prochain évènement gaming est ouvert aux
+            réservations... Places limitées !
+          </p>
+          <button class="btn-signup modal-btn">je m'inscris</button>
+        </div>
+        <div class="hero-img">
+          <img src="./bg_img.jpg" alt="img" width="354" height="329" />
+        </div>
+        <button class="btn-signup modal-btn">je m'inscris</button>
+      </div>
 
+      <div class="bground">
+        <div class="content">
+          <span class="close"></span>
+          <div class="modal-body">
+            <form
+              name="reserve"
+              action="index.html"
+              method="get"
+              onsubmit="return validate();"
+            >
+              <div class="formData">
+                <label>Prénom</label><br />
+                <input
+                  class="text-control"
+                  type="text"
+                  id="first"
+                  name="first"
+                  minlength="2"
+                /><br />
+                <div id="firstNameError" class="error-message">
+                  Saisissez votre prénom
+                </div>
+              </div>
+              <div class="formData">
+                <label>Nom</label><br />
+                <input
+                  class="text-control"
+                  type="text"
+                  id="last"
+                  name="last"
+                /><br />
+                <div id="lastNameError" class="error-message">
+                  Saisissez votre nom de famille
+                </div>
+              </div>
+              <div class="formData">
+                <label>E-mail</label><br />
+                <input
+                  class="text-control"
+                  type="email"
+                  id="email"
+                  name="email"
+                /><br />
+                <div id="emailError" class="error-message">
+                  Saisissez une adresse mail valide
+                </div>
+              </div>
+              <div class="formData">
+                <label>Date de naissance</label><br />
+                <input
+                  class="text-control"
+                  type="date"
+                  id="birthdate"
+                  name="birthdate"
+                /><br />
+                <div id="birthdateError" class="error-message">
+                  Saisissez une date de naissance valide
+                </div>
+              </div>
+              <div class="formData">
+                <label
+                  >À combien de tournois GameOn avez-vous déjà participé
+                  ?</label
+                ><br />
+                <input
+                  type="number"
+                  class="text-control"
+                  id="quantity"
+                  name="quantity"
+                  min="0"
+                  max="99"
+                />
+              </div>
+              <div id="quantityError" class="error-message">
+                Sélectionnez une option
+              </div>
+              <p class="text-label">
+                A quel tournoi souhaitez-vous participer cette année ?
+              </p>
+              <div class="formData">
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  id="location1"
+                  name="location"
+                  value="New York"
+                />
+                <label class="checkbox-label" for="location1">
+                  <span class="checkbox-icon"></span>
+                  New York</label
+                >
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  id="location2"
+                  name="location"
+                  value="San Francisco"
+                />
+                <label class="checkbox-label" for="location2">
+                  <span class="checkbox-icon"></span>
+                  San Francisco</label
+                >
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  id="location3"
+                  name="location"
+                  value="Seattle"
+                />
+                <label class="checkbox-label" for="location3">
+                  <span class="checkbox-icon"></span>
+                  Seattle</label
+                >
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  id="location4"
+                  name="location"
+                  value="Chicago"
+                />
+                <label class="checkbox-label" for="location4">
+                  <span class="checkbox-icon"></span>
+                  Chicago</label
+                >
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  id="location5"
+                  name="location"
+                  value="Boston"
+                />
+                <label class="checkbox-label" for="location5">
+                  <span class="checkbox-icon"></span>
+                  Boston</label
+                >
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  id="location6"
+                  name="location"
+                  value="Portland"
+                />
+                <label class="checkbox-label" for="location6">
+                  <span class="checkbox-icon"></span>
+                  Portland</label
+                >
+                <div id="locationError" class="error-message">
+                  Sélectionnez un événement
+                </div>
+              </div>
+
+              <div class="formData">
+                <input
+                  class="checkbox-input"
+                  type="checkbox"
+                  id="checkbox1"
+                  checked
+                />
+                <label class="checkbox2-label" for="checkbox1">
+                  <span class="checkbox-icon"></span>
+                  J'ai lu et accepté les conditions d'utilisation.
+                </label>
+                <br />
+                <div id="checkboxError" class="error-message">
+                  Veuillez accepter les conditions d'utilisation
+                </div>
+                <input class="checkbox-input" type="checkbox" id="checkbox2" />
+                <label class="checkbox2-label" for="checkbox2">
+                  <span class="checkbox-icon"></span>
+                  Je souhaite être prévenu des prochains évènements.
+                </label>
+                <br />
+              </div>
+              <input
+                class="btn-submit button"
+                type="submit"
+                value="C'est parti"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bground postRegisterModal">
+        <div class="content postRegisterContent">
+          <span class="close postRegisterClose"></span>
+          <div class="modal-body">
+            <p class="postRegisterContent-text">Merci pour votre inscription</p>
+            <input
+              class="post-btn-close btn-close button"
+              type="button"
+              value="Fermer"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="copyrights">Copyright 2014 - 2022, GameOn Inc.</p>
+    </footer>
+    <script src="modal.js"></script>
+  </body>
 </html>
